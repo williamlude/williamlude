@@ -1,0 +1,56 @@
+
+body{
+    background-color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 100px;
+}
+
+#menu {
+    position: fixed;
+    top: 0px;
+    background: #ffffa6;
+    box-shadow: 0 2px 0 black;
+}
+
+.list a {
+    display: block;
+    padding: 1em;
+    color: black;
+  }
+
+.list a:hover {
+    background: #70cb7d;
+  }
+
+fieldset{
+    background-color: rgb(255, 255, 143);
+    border: 5px black dashed;
+    margin: 1% 10% 1% 10%;
+    
+}
+body legend{
+    
+    font-size: 30px;
+    background-color: rgb(255, 255, 143) ;
+    color:rgb(26, 88, 26);
+    border: 5px black dashed;
+}
+
+.cuadro{
+    color: rgb(26, 88, 26);
+    font-size: 20px;
+}
+
+footer {
+    background:  #ccdad6;
+    height: 250px;
+    border-top: 5px solid black;
+  }
+
+ .foter {
+   width: 250px;
+   display: inline-table;
+   margin-left: 10px;
+   margin-top: 20px;
+   text-align: center;
+ }
